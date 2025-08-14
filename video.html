@@ -23,58 +23,30 @@
 </head>
 <body id="body" onload="onPageLoaded()" class="chart">
 
-    <!-- Fullscreen background video -->
-    <video autoplay muted loop id="stars" oncanplay="this.play()">
+    <!-- Background video -->
+    <video autoplay muted loop id="stars">
         <source src="videos/stars.mp4" type="video/mp4">
-        Your browser does not support the video tag.
     </video>
 
-    <table class="centered-container">
-        <tr>
-            <th class="topAss">
-                <div class="p1" id="topbar">
-                    <b style="margin-top: 0; font-size: 32px;" class="h1Rainbow">
-                        <b id="rainbow">insect.christmas</b> <a href="https://www.youtube.com/watch?v=UcDlWn1jQPc">&#666;&iuml;&#606;</a>
-                    </b>
-                    <p class="smallMargins"><b style="color:slateblue;">home - status:</b></p>
-                    <p class="smallMargins2">every second of scrolling social media is brain regenerating and the best thing you can do!</p>
-                    <table>
-                        <tr>
-                            <th id="smiley">=^)</th>
-                            <th style="height:20px;width:100%;">
-                                <audio controls loop id="audioA" style="height:100%;width:100%;">
-                                    <source src="ost/04ic.wav" type="audio/mpeg">
-                                    Your browser does not support the audio element.
-                                </audio>
-                            </th>
-                        </tr>
-                        <tr>
-                            <th style="height:10px;">song:</th>
-                            <th class="smallMargins" style="color:slateblue;font-size:8px;">insect.christmas - under the mistletoe</th>
-                        </tr>
-                    </table>
-                </div>
-            </th>
-            <th>
-                <img src="images/ic/icbig.gif" title="izzy :>" style="height:150px;width:150px;" alt="izzy the bug: :>" id="izzy" data-bs-toggle="tooltip">
-            </th>
-        </tr>
-        <!-- rest of your table content stays the same -->
-    </table>
-
-    <div id="trail">
-        <div class="butterfly">ʚïɞ</div>
-        <div class="butterfly">ʚïɞ</div>
-        <div class="butterfly">ʚïɞ</div>
-        <div class="butterfly">ʚïɞ</div>
-        <div class="butterfly">ʚïɞ</div>
-        <div class="butterfly">ʚïɞ</div>
-        <div class="butterfly">ʚïɞ</div>
-        <div class="butterfly">ʚïɞ</div>
-        <div class="butterfly">ʚïɞ</div>
+    <!-- Main content -->
+    <div id="content">
+        <table class="centered-container">
+            <!-- all your table content here exactly as before -->
+        </table>
+        <div id="trail">
+            <div class="butterfly">ʚïɞ</div>
+            <div class="butterfly">ʚïɞ</div>
+            <div class="butterfly">ʚïɞ</div>
+            <div class="butterfly">ʚïɞ</div>
+            <div class="butterfly">ʚïɞ</div>
+            <div class="butterfly">ʚïɞ</div>
+            <div class="butterfly">ʚïɞ</div>
+            <div class="butterfly">ʚïɞ</div>
+            <div class="butterfly">ʚïɞ</div>
+        </div>
     </div>
 
-    <!-- Fixed relative script paths -->
+    <!-- Scripts -->
     <script src="js/index.js"></script>
     <script src="js/detection.js"></script>
     <script src="js/izzy.js"></script>
